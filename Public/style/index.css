@@ -167,3 +167,64 @@ footer{
     display: inline-block;
     font-size: 30px;
 }
+
+.icon-menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 500px){
+    .icon-menu{
+        margin: 5px;
+        font-size: 30px;
+        display: block;
+    }
+
+    .ul{
+        display: none;
+    }
+
+    .title{
+        margin: 0 0 0 10px;
+        font-size: 30px;
+    }
+
+    .img-logo{
+        margin: 0 0 0 10px;
+    }
+
+    .welcome{
+        font-size: 70px;
+        top: 43%;
+        left: 113%;
+    }
+
+    .info-dentlab{
+        width: 80%;
+    }
+
+    .flex-footer{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    .flex-1-footer{
+        width: 100%;
+        margin: auto;
+    }
+
+    .flex-2-footer{
+        width: 100%;
+        padding: 15px;
+        margin: auto;
+        border: 0;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+
+    .flex-3-footer{
+        width: 100%;
+        margin: auto;
+    }
+
+}
