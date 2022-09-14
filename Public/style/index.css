@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #ECE5C7;
+}
+
+/* estilos header */
+
+header{
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    background: #354259;
+}
+
+.container-flex{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.title{
+    display: inline;
+    margin: 10px 20px;
+}
+
+.img-logo{
+    width: 100px;
+    margin-left:30px;
+    display: inline;
+}
+
+.flex-1{
+    width: 45%;
+    padding-right: 100px;
+    font-size: 21px;
+    font-family: "Segoe UI";
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+.flex-2{
+    width: 55%;
+    padding-left: 80px;
+}
+
+.ul{
+    width: 100%;
+    margin: 24px  0 0 0;
+}
+
+.li{
+    width: 150px;
+    margin:0 10px ;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.li:hover{
+    background:#CDC2AE ;
+}
+
+.li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    color: #000;
+}
+
+
+/* estilos main*/
+
+.container-welcome{
+    width: 100%;
+    height: 10%;
+}
+
+
+.img-welcome{
+    width: 100%;
+    height: 20%;
+    height: 20%;
+    filter: contrast(50%) brightness(70%);
+}
+
+.welcome{
+    position: absolute;
+    top: 80%;
+    left: 100%;
+    transform: translate(-132%, -150%);
+    font-size: 150px;
+    font-family: "Segoe UI";
+    color: #ECE5C7;
+}
+
+.container-info{
+    margin: 10% 0;
+}
+
+.info-dentlab{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.title-info{
+    text-align: left;
+    font-size: 40px;
+    font-family: "Segoe UI";
+
+}
+
+.description-info{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Segoe UI";
+}
+
+/* estilos footer*/
+
+footer{
+    background:#CDC2AE;
+    padding: 10px;
+}
+
+.container-footer{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.flex-footer{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.flex-1-footer{
+    width: 40%;
+    font-size: 25px;
+    font-family: "Segoe UI";
+}
+
+.flex-2-footer{
+    width: 40%;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.flex-3-footer{
+    width: 40%;
+    font-size: 15px;
+    font-family: "Segoe UI";
+}
+
+.flex-3-footer i{
+    margin: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
