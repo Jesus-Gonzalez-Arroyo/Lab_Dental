@@ -170,3 +170,83 @@ footer{
     display: inline-block;
     font-size: 30px;
 }
+
+
+@media screen and (max-width: 1200px){
+    .icon-menu{
+        margin: 35px 20px;
+        font-size: 30px;
+        display: block;
+    }
+
+    .ul{
+        display: none;
+    }
+
+    .welcome{
+        font-size: 90px;
+    }
+
+    .img-logo{
+        width: 60px;
+        margin: 0 0 0 30px;
+    }
+
+    .flex-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .icon-menu{
+        margin: 15px 0 0 0;
+        font-size: 25px;
+        display: block;
+    }
+
+    .ul{
+        display: none;
+    }
+
+    .title{
+        margin: 0 0 0 5px;
+        font-size: 30px;
+    }
+
+    .img-logo{
+        margin: 0;
+    }
+
+    .welcome{
+        font-size: 60px;
+    }
+
+    .info-dentlab{
+        width: 80%;
+    }
+
+    .flex-footer{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    .flex-1-footer{
+        width: 100%;
+        margin: auto;
+    }
+
+    .flex-2-footer{
+        width: 100%;
+        padding: 15px 0;
+        margin: auto;
+        border: 0;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+
+    .flex-3-footer{
+        width: 100%;
+        margin: auto;
+    }
+
+}
