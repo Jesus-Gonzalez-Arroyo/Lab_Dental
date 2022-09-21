@@ -78,16 +78,21 @@ header{
 
 .container-welcome{
     width: 100%;
-    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
+.lista-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .img-welcome{
     width: 100%;
-    height: 20%;
+    height: 100%;
     filter: contrast(50%) brightness(70%);
 }
 
