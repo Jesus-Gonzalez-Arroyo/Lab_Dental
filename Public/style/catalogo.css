@@ -174,6 +174,10 @@ footer{
     font-size: 30px;
 }
 
+.icon-menu{
+    display: none;
+}
+
 /*version tablet*/
 
 @media screen and (max-width: 1200px){

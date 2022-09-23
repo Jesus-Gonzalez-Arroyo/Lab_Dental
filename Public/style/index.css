@@ -127,6 +127,38 @@ header{
     font-family: "Segoe UI";
 }
 
+/*Estilos del menu hamburguesa*/
+
+.menu{
+    width: 60%;
+    left: 40%;
+    transition: all .5s ease-out;    
+}
+
+.lista-menu{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.item-menu{
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+}
+
+.item-menu:hover{
+    background: #555;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* estilos footer*/
 
 footer{
@@ -208,6 +240,7 @@ footer{
         margin: 15px 0 0 0;
         font-size: 25px;
         display: block;
+        cursor: pointer;
     }
 
     .ul{
@@ -227,6 +260,10 @@ footer{
         font-size: 60px;
     }
 
+    .active{
+        transform: translate(-60%);
+    }
+    
     .info-dentlab{
         width: 80%;
     }
