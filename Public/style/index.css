@@ -215,13 +215,14 @@ footer{
     /*Estilos del menu hamburguesa version tableta*/
 
     .menu{
-        position: absolute;
         width: 50%;
         max-width: 50%;
-        height: 50vh;
+        height: 450px;
+        max-height: 450px;
         margin: 10px 0 10px 49%;
         border-radius: 10px;
         display: block;
+        position: absolute;
         transition: all .5s ease-out;
         background: #354259;
     }   
@@ -299,16 +300,16 @@ footer{
     }
 
     .img-logo{
-        margin: 0;
+        width: 60px;
+        margin: 0 10px 0 0;
     }
 
     .welcome{
         font-size: 60px;
     }
 
-    .menu{
-        width: 70%;
-        height: 85vh;
+    .desenfoque{
+        filter: blur(2px);
     }
 
 /*Estilos del menu hamburguesa version mobile*/
@@ -316,9 +317,11 @@ footer{
     .menu{
         width: 95%;
         max-width: 95%;
-        height: 80vh;
+        height: 500px;
+        max-height: 500px;
         margin: 10px 10px 0 10px;
         display: block;
+        position: absolute;
         border-radius: 10px;
         transition: all .5s ease-out;
         background: #354259;
@@ -326,7 +329,8 @@ footer{
 
     .lista-menu{
         width: 100%;
-        padding: 20px;
+        margin: 0;
+        padding: 15px;
         display: block;
         text-align: center;
         list-style: none;
@@ -352,15 +356,19 @@ footer{
     .remove{
         display: none;
     }
+    
+    .container-cancel{
+        margin: 0;
+        display: block;
+    }
 
     .cancel{
         display: block;
-        margin: 20px 20px;
+        margin: 20px 0 0 20px;
         font-size: 30px;
         cursor: pointer;
     }
 
-    
     .info-dentlab{
         width: 80%;
     }
