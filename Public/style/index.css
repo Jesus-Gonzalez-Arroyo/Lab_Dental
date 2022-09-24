@@ -181,12 +181,23 @@ footer{
     display: none;
 }
 
+.container-cancel{
+    display: none;
+}
+
+/*Version para tabletas*/
+
 @media screen and (max-width: 1200px){
+
     .icon-menu{
         margin: 35px 20px;
         font-size: 30px;
         display: block;
         cursor: pointer;
+    }
+
+    .img-logo{
+        margin: 0;
     }
 
     .ul{
@@ -197,18 +208,22 @@ footer{
         font-size: 90px;
     }
 
-    /*Estilos del menu hamburguesa*/
+    .desenfoque{
+        filter: blur(2px);
+    }
+
+    /*Estilos del menu hamburguesa version tableta*/
 
     .menu{
         position: absolute;
         width: 50%;
         max-width: 50%;
-        height: 76vh;
+        height: 50vh;
         margin: 10px 0 10px 49%;
         border-radius: 10px;
         display: block;
         transition: all .5s ease-out;
-        background: #333;
+        background: #354259;
     }   
 
     .lista-menu{
@@ -242,8 +257,14 @@ footer{
     }
 
     .cancel{
+        display: block;
         margin: 20px 20px;
         font-size: 30px;
+        cursor: pointer;
+    }
+
+    .container-cancel{
+        display: block;
     }
 
     /*Estilos icono*/
@@ -258,6 +279,7 @@ footer{
     }
 }
 
+/*Version para moviles*/
 
 @media screen and (max-width: 600px){
     .icon-menu{
@@ -289,7 +311,7 @@ footer{
         height: 85vh;
     }
 
-/*Estilos del menu hamburguesa*/
+/*Estilos del menu hamburguesa version mobile*/
 
     .menu{
         width: 95%;
@@ -299,7 +321,7 @@ footer{
         display: block;
         border-radius: 10px;
         transition: all .5s ease-out;
-        background: #333;
+        background: #354259;
     }
 
     .lista-menu{
@@ -330,6 +352,14 @@ footer{
     .remove{
         display: none;
     }
+
+    .cancel{
+        display: block;
+        margin: 20px 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
     
     .info-dentlab{
         width: 80%;

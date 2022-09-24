@@ -102,7 +102,6 @@ header{
 }
 
 
-
 /* estilos footer*/
 
 footer{
@@ -152,12 +151,24 @@ footer{
     display: none;
 }
 
+.lista-menu{
+    display: none;
+}
+
+.container-cancel{
+    display: none;
+}
+
 
 @media screen and (max-width: 1200px){
     .icon-menu{
-        margin: 35px 20px ;
+        margin: 35px 20px;
         font-size: 30px;
         display: block;
+    }
+
+    .img-logo{
+        margin: 0;
     }
 
     .ul{
@@ -168,6 +179,64 @@ footer{
         font-size: 90px;
     }
 
+    .desenfoque{
+        filter: blur(2px);
+    }
+
+    /*Estilos del menu hamburguesa*/
+
+    .menu{
+        width: 55%;
+        max-width: 55%;
+        height: 60vh;
+        margin: 10px 10px 0 44%;
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        transition: all .5s ease-out;
+        background: #333;
+    }
+
+    .lista-menu{
+        width: 100%;
+        padding: 20px;
+        display: block;
+        text-align: center;
+        list-style: none;
+    }
+
+    .item-menu{
+        width: 100%;
+        margin: 40px 0 0 0;
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Segoe UI";
+    }
+
+    .item-menu:hover{
+        background: #555;
+    }
+
+    .link-menu{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .remove{
+        display: none;
+    }
+
+    .cancel{
+        display: block;
+        margin: 20px 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .container-cancel{
+        display: block;
+    }
+
     .img-logo{
         width: 60px;
         margin: 0 0 0 30px;
@@ -176,6 +245,15 @@ footer{
     .flex-footer{
         width: 100%;
     }
+
+    .mision{
+        margin: 13% auto 0 auto;
+    }
+
+    .Vision{
+        margin: 5% auto 15% auto;
+    }
+
 }
 
 
@@ -190,14 +268,69 @@ footer{
         display: none;
     }
 
+    .img-logo{
+        margin: 0;
+    }
+
     .title{
-        margin: 0 0 0 5px;
         font-size: 30px;
     }
 
-    .img-logo{
-        width: 60px;
-        margin: 0;
+    .mision{
+        width: 80%;
+    }
+
+    .Vision{
+        width: 80%;
+    }
+    
+    /*Estilos del menu hamburguesa*/
+
+    .menu{
+        width: 95%;
+        max-width: 95%;
+        height: 80vh;
+        margin: 10px 10px 0 10px;
+        display: block;
+        border-radius: 10px;
+        transition: all .5s ease-out;
+        background: #333;
+    }
+
+    .lista-menu{
+        width: 100%;
+        padding: 20px;
+        display: block;
+        text-align: center;
+        list-style: none;
+    }
+
+    .item-menu{
+        width: 100%;
+        margin: 40px 0 0 0;
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Segoe UI";
+    }
+
+    .item-menu:hover{
+        background: #555;
+    }
+
+    .link-menu{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .remove{
+        display: none;
+    }
+
+    .cancel{
+        display: block;
+        margin: 20px 20px;
+        font-size: 30px;
+        cursor: pointer;
     }
 
     .flex-footer{
@@ -224,4 +357,8 @@ footer{
         margin: auto;
     }
 
+    footer{
+        position: relative;
+        width: 100%;
+    }
 }
