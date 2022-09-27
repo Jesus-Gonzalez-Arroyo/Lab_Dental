@@ -178,6 +178,16 @@ footer{
     display: none;
 }
 
+.lista-menu{
+    display: none;
+}
+
+.container-cancel{
+    display: none;
+}
+
+
+
 /*version tablet*/
 
 @media screen and (max-width: 1200px){
@@ -193,6 +203,74 @@ footer{
 
     .welcome{
         font-size: 90px;
+    }
+
+    .desenfoque{
+        filter: blur(2px);
+    }
+
+/*Estilos del menu hamburguesa*/
+
+    .menu{
+        width: 50%;
+        max-width: 50%;
+        height: 550px;
+        max-width: 540px;
+        margin: 10px 10px 0 49%;
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        transition: all .5s ease-out;
+        background: #354259;
+    }
+
+    .lista-menu{
+        width: 100%;
+        padding: 20px;
+        display: block;
+        text-align: center;
+        list-style: none;
+    }
+
+    .item-menu{
+        width: 100%;
+        margin: 40px 0 0 0;
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Segoe UI";
+    }
+
+    .item-menu:hover{
+        background: #555;
+    }
+
+    .link-menu{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .remove{
+        display: none;
+    }
+
+    .cancel{
+        display: block;
+        margin: 20px 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .container-cancel{
+        display: block;
+    }
+
+    .img-logo{
+        width: 60px;
+        margin: 0 0 0 30px;
+    }
+
+    .flex-footer{
+        width: 100%;
     }
 
     .img-logo{
@@ -240,6 +318,67 @@ footer{
 
     .container-catalogo h2{
         font-size: 40px;
+    }
+
+    .desenfoque{
+        filter: blur(2px);
+    }
+
+    /*Estilos del menu hamburguesa version mobile*/
+
+    .menu{
+        width: 95%;
+        max-width: 95%;
+        height: 500px;
+        max-height: 500px;
+        margin: 10px 10px 0 10px;
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        transition: all .5s ease-out;
+        background: #354259;
+    }
+
+    .lista-menu{
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        list-style: none;
+    }
+
+    .item-menu{
+        width: 100%;
+        margin: 40px 0 0 0;
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Segoe UI";
+    }
+
+    .item-menu:hover{
+        background: #555;
+    }
+
+    .link-menu{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .remove{
+        display: none;
+    }
+    
+    .container-cancel{
+        margin: 0;
+        display: block;
+    }
+
+    .cancel{
+        display: block;
+        margin: 20px 0 0 20px;
+        font-size: 30px;
+        cursor: pointer;
     }
 
     .flex-footer{

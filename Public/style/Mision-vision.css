@@ -287,10 +287,11 @@ footer{
     /*Estilos del menu hamburguesa*/
 
     .menu{
-        width: 95%;
-        max-width: 95%;
-        height: 80vh;
-        margin: 10px 10px 0 10px;
+        width: 55%;
+        max-width: 55%;
+        height: 450px;
+        max-height: 450px;
+        margin: 10px 10px 0 44%;
         display: block;
         border-radius: 10px;
         transition: all .5s ease-out;
