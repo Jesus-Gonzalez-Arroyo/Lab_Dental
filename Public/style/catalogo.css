@@ -406,3 +406,32 @@ footer{
     }
 
 }
+
+/*version extra*/
+
+@media screen and (max-width: 320px){
+    .title{
+        font-size: 23px;
+    }
+
+    .img-logo{
+        width: 55px;
+        margin: 0 7px 0 0;
+    }
+
+    .info-dentlab{
+        width: 90%;
+    }
+
+    .welcome{
+        font-size: 50px;
+    }
+
+    .flex-footer{
+        width: 70%;
+    }
+
+    .menu{
+        margin: 8px;
+    }
+}

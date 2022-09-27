@@ -159,6 +159,7 @@ footer{
     display: none;
 }
 
+/*version para tableta*/
 
 @media screen and (max-width: 1200px){
     .icon-menu{
@@ -168,7 +169,8 @@ footer{
     }
 
     .img-logo{
-        margin: 0;
+        width: 90px;
+        margin: 0 0 0 30px;
     }
 
     .ul{
@@ -188,13 +190,14 @@ footer{
     .menu{
         width: 55%;
         max-width: 55%;
-        height: 60vh;
+        height: 540px;
+        max-height: 540px;
         margin: 10px 10px 0 44%;
         display: block;
         position: absolute;
         border-radius: 10px;
         transition: all .5s ease-out;
-        background: #333;
+        background: #354259;
     }
 
     .lista-menu{
@@ -237,11 +240,6 @@ footer{
         display: block;
     }
 
-    .img-logo{
-        width: 60px;
-        margin: 0 0 0 30px;
-    }
-
     .flex-footer{
         width: 100%;
     }
@@ -256,6 +254,7 @@ footer{
 
 }
 
+/*version para moviles*/
 
 @media screen and (max-width: 600px){
     .icon-menu{
@@ -269,10 +268,12 @@ footer{
     }
 
     .img-logo{
+        width: 50px;
         margin: 0;
     }
 
     .title{
+        margin: 0 0 0 9px;
         font-size: 30px;
     }
 
@@ -287,15 +288,15 @@ footer{
     /*Estilos del menu hamburguesa*/
 
     .menu{
-        width: 55%;
-        max-width: 55%;
-        height: 450px;
-        max-height: 450px;
-        margin: 10px 10px 0 44%;
+        width: 95%;
+        max-width: 95%;
+        height: 500px;
+        max-height: 500px;
+        margin: 10px 10px 0 10px;
         display: block;
         border-radius: 10px;
         transition: all .5s ease-out;
-        background: #333;
+        background: #354259;
     }
 
     .lista-menu{
@@ -361,5 +362,36 @@ footer{
     footer{
         position: relative;
         width: 100%;
+    }
+}
+
+/*version extra*/
+
+@media screen and (max-width: 320px){
+    .title{
+        font-size: 23px;
+        margin: 0;
+    }
+
+    .img-logo{
+        width: 55px;
+        margin: 0 7px 0 0;
+    }
+
+    .info-dentlab{
+        width: 90%;
+    }
+
+    .welcome{
+        font-size: 50px;
+    }
+
+    .flex-footer{
+        width: 70%;
+    }
+
+    .menu{
+        margin: 8px;
+        background: #354259;
     }
 }
