@@ -261,6 +261,7 @@ footer{
         margin: 15px 0 0 0;
         font-size: 25px;
         display: block;
+        cursor: pointer;
     }
 
     .ul{
